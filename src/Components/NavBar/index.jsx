@@ -3,7 +3,7 @@ import { FiMenu } from "react-icons/fi";
 import { BiLogOut } from "react-icons/bi";
 import {IoMdAddCircleOutline} from "react-icons/io"
 import {FaEdit} from "react-icons/fa"
-
+import { Link } from "react-router-dom";
 const NavBarAdmin = ({ children }) => {
   const [collapse, setCollapse] = useState("sb-nav-fixed");
 
@@ -37,9 +37,9 @@ const NavBarAdmin = ({ children }) => {
             <div className="sb-sidenav-menu">
               <div className="nav">
                 <div className="sb-sidenav-menu-heading">PRECIOS</div>
-                <a className="nav-link pointer">
+                <Link to="/PreciosBerger" className="nav-link pointer">
                   BERGER
-                </a>
+                </Link>
                 <a className="nav-link pointer">
                   MICAM
                 </a>
