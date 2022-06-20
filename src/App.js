@@ -7,7 +7,7 @@ import PreciosBerger from "./Components/Home/PreciosBerger";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" element={<NavBar><Home/></NavBar>}/>
         <Route path="/PreciosBerger" element={<NavBar><PreciosBerger/></NavBar>}/>
