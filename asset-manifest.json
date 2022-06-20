@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ferreteriaApp/static/css/main.19befb77.css",
+    "main.js": "/ferreteriaApp/static/js/main.2bd6079a.js",
+    "static/js/787.23324bce.chunk.js": "/ferreteriaApp/static/js/787.23324bce.chunk.js",
+    "index.html": "/ferreteriaApp/index.html",
+    "main.19befb77.css.map": "/ferreteriaApp/static/css/main.19befb77.css.map",
+    "main.2bd6079a.js.map": "/ferreteriaApp/static/js/main.2bd6079a.js.map",
+    "787.23324bce.chunk.js.map": "/ferreteriaApp/static/js/787.23324bce.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.19befb77.css",
+    "static/js/main.2bd6079a.js"
+  ]
+}
